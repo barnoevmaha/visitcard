@@ -1,16 +1,29 @@
-# React + Vite
+# Digital business card
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A one-page personal card that lives on a URL and in a QR code: contacts, skills, "save to phone"
+as a vCard, share sheet, light/dark theme. Everything is driven by one config file, so it works
+as a template for anyone.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Hero with avatar, title and contact buttons (phone, e-mail, Telegram, WhatsApp, Instagram, GitHub)
+- QR code of the page itself, generated client-side (`qrcode.react`)
+- Download contact as `.vcf` (vCard) — opens straight in the phone's contacts app
+- Web Share API with clipboard fallback
+- Theme toggle that respects `prefers-color-scheme`, scroll progress, back-to-top, particle background
+- Toasts for copy/share feedback
 
-## React Compiler
+## Make it yours
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Edit `src/config/config.js` — name, title, about, phone, links, skills — and replace
+`src/assets/avatar.jpg`. Nothing else needs changing.
 
-## Expanding the Oxlint configuration
+## Run
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```bash
+npm install
+npm run dev      # http://localhost:5173
+npm run build    # static site in dist/
+```
+
+React 18 + Vite, `react-icons`, `qrcode.react`. No backend.

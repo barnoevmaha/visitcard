@@ -2,16 +2,16 @@ import avatar from "../assets/avatar.jpg";
 
 const config = {
   name: "Makhmudjon Barnoyev",
-  title: "Full Stack Developer",
+  title: "Backend Developer — Python / FastAPI",
   description: "Building elegant digital experiences with modern web technologies.",
   about:
-    "I'm a full-stack developer with 5+ years of experience building web applications. I specialize in Python and JavaScript ecosystems, from FastAPI backends to React frontends. I love turning complex problems into simple, beautiful, and intuitive solutions.",
+    "Backend developer from Uzbekistan, now in Pforzheim, Germany. A year of freelance work: FastAPI and PostgreSQL backends, Telegram bots on aiogram 3, React frontends — built for real clients and deployed in Docker. Next step: IT security.",
   avatar,
-  phone: "+998 (94) 043-40-00",
+  phone: "+49 179 1737117",
   email: "barnoevmaha@gmail.com",
   instagram: "maxmudjon.07",
   telegram: "maxmudjon08",
-  whatsapp: "+998 (94) 043-40-00",
+  whatsapp: "+49 179 1737117",
   github: "barnoevmaha",
   website: "https://barnoevmaha.dev",
   skills: [
