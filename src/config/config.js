@@ -7,11 +7,11 @@ const config = {
   about:
     "Backend developer from Uzbekistan, now in Pforzheim, Germany. A year of freelance work: FastAPI and PostgreSQL backends, Telegram bots on aiogram 3, React frontends — built for real clients and deployed in Docker. Next step: IT security.",
   avatar,
-  phone: "+49 179 1737117",
+  phone: "+49 179 1737113",
   email: "barnoevmaha@gmail.com",
   instagram: "maxmudjon.07",
   telegram: "maxmudjon08",
-  whatsapp: "+49 179 1737117",
+  whatsapp: "+49 179 1737113",
   github: "barnoevmaha",
   website: "https://barnoevmaha.dev",
   skills: [
