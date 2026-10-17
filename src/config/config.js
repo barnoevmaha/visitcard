@@ -2,10 +2,10 @@ import avatar from "../assets/avatar.jpg";
 
 const config = {
   name: "Makhmudjon Barnoyev",
-  title: "Backend Developer — Python / FastAPI",
-  description: "Building elegant digital experiences with modern web technologies.",
+  title: "Python & React Developer",
+  description: "Telegram bots and web apps with Python, FastAPI and React.",
   about:
-    "Backend developer from Uzbekistan, now in Pforzheim, Germany. A year of freelance work: FastAPI and PostgreSQL backends, Telegram bots on aiogram 3, React frontends — built for real clients and deployed in Docker. Next step: IT security.",
+    "I build Telegram bots and web applications with Python, FastAPI and React — for clients, at a hackathon and on my own. Since September 2026 I live in Pforzheim, Germany, and I am looking for an apprenticeship as Fachinformatiker für Systemintegration, heading towards IT security.",
   avatar,
   phone: "+49 179 1737113",
   email: "barnoevmaha@gmail.com",
@@ -13,7 +13,7 @@ const config = {
   telegram: "maxmudjon08",
   whatsapp: "+49 179 1737113",
   github: "barnoevmaha",
-  website: "https://barnoevmaha.dev",
+  website: "https://barnoev.aurelius.uz",
   skills: [
     "Python",
     "FastAPI",
@@ -21,6 +21,7 @@ const config = {
     "JavaScript",
     "SQLAlchemy",
     "PostgreSQL",
+    "aiogram",
     "Docker",
     "Git",
   ],

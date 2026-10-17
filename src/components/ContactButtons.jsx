@@ -103,7 +103,7 @@ export default function ContactButtons({ config }) {
       sub: config.whatsapp,
       action: "Chat",
       onClick: () =>
-        window.open(`https://wa.me/${config.whatsapp}`, "_blank"),
+        window.open(`https://wa.me/${config.whatsapp.replace(/\D/g, "")}`, "_blank"),
       color: "#25D366",
     },
     {
