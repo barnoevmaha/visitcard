@@ -1,7 +1,7 @@
 import avatar from "../assets/avatar.jpg";
 
 const config = {
-  name: "Makhmudjon Barnoyev",
+  name: "Makhmudjon Barnoev",
   title: "Python & React Developer",
   description: "Telegram bots and web apps with Python, FastAPI and React.",
   about:
